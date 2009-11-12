@@ -6,28 +6,28 @@ uses, so all contact data that exists in your Evolution addressbook is
 accessible via Contacts.
 
 Runtime requirements:
-  cygwin-1.7.0-48
+  cygwin-1.7.0-62
   libdbus-glib_1_2-0.80-10
-  libebook1.2_9-2.26.1.1-1
-  libgcc1-4.3.2-2
-  libgconf2_4-2.26.0-1
-  libgdk_pixbuf2.0_0-2.16.1-1
-  libglib2.0_0-2.20.1-1
-  libgnomevfs2_0-2.24.1-1
-  libgtk2.0_0-2.16.1-1
-  libintl8-0.17-10
+  libebook1.2_9-2.28.1-1
+  libgcc1-4.3.4-1
+  libgconf2_4-2.28.0-1
+  libgdk_pixbuf2.0_0-2.18.3-1
+  libglib2.0_0-2.22.2-1
+  libgnomevfs2_0-2.24.2-1
+  libgtk2.0_0-2.18.3-1
+  libintl8-0.17-11
 
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.63-10
-  automake1.10-1.10.2-10
-  binutils-20080624-2
-  cygport-0.9.6-1
-  gawk-3.1.6-2
-  gcc4-core-4.3.2-2
-  gnome-common-2.26.0-2
+  automake1.11-1.11-10
+  binutils-2.19.51-1
+  cygport-0.9.10-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-1
+  gnome-common-2.28.0-1
   intltool-0.40.6-1
-  libtool-2.2.7a-12
+  libtool-2.2.7a-14
   make-3.81-2
   pkg-config-0.23b-10
   sed-4.1.5-2
@@ -41,62 +41,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack contacts-0.10-X-src.tar.bz2
+  unpack contacts-0.11-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./contacts-0.10-X.cygport all
+  cygport ./contacts-0.11-X.cygport all
 
 This will create:
-  /usr/src/contacts-0.10-X-src.tar.bz2
-  /usr/src/contacts-0.10-X.tar.bz2
+  /usr/src/contacts-0.11-X-src.tar.bz2
+  /usr/src/contacts-0.11-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /etc/gconf/schemas/contacts.schemas
-  /etc/postinstall/contacts.sh
-  /etc/preremove/contacts.sh
-  /usr/bin/contacts.exe
-  /usr/share/applications/contacts.desktop
-  /usr/share/doc/contacts/COPYING
-  /usr/share/doc/contacts/ChangeLog
-  /usr/share/doc/contacts/NEWS
-  /usr/share/icons/hicolor/16x16/apps/contacts.png
-  /usr/share/icons/hicolor/22x22/apps/contacts.png
-  /usr/share/icons/hicolor/24x24/apps/contacts.png
-  /usr/share/icons/hicolor/32x32/apps/contacts.png
-  /usr/share/icons/hicolor/48x48/apps/contacts.png
-  /usr/share/icons/hicolor/scalable/apps/contacts.svg
-  /usr/share/locale/bg/LC_MESSAGES/Contacts.mo
-  /usr/share/locale/ca/LC_MESSAGES/Contacts.mo
-  /usr/share/locale/cs/LC_MESSAGES/Contacts.mo
-  /usr/share/locale/da/LC_MESSAGES/Contacts.mo
-  /usr/share/locale/de/LC_MESSAGES/Contacts.mo
-  /usr/share/locale/el/LC_MESSAGES/Contacts.mo
-  /usr/share/locale/en_GB/LC_MESSAGES/Contacts.mo
-  /usr/share/locale/es/LC_MESSAGES/Contacts.mo
-  /usr/share/locale/et/LC_MESSAGES/Contacts.mo
-  /usr/share/locale/fi/LC_MESSAGES/Contacts.mo
-  /usr/share/locale/fr/LC_MESSAGES/Contacts.mo
-  /usr/share/locale/gl/LC_MESSAGES/Contacts.mo
-  /usr/share/locale/hu/LC_MESSAGES/Contacts.mo
-  /usr/share/locale/it/LC_MESSAGES/Contacts.mo
-  /usr/share/locale/nb/LC_MESSAGES/Contacts.mo
-  /usr/share/locale/nl/LC_MESSAGES/Contacts.mo
-  /usr/share/locale/pa/LC_MESSAGES/Contacts.mo
-  /usr/share/locale/pl/LC_MESSAGES/Contacts.mo
-  /usr/share/locale/pt/LC_MESSAGES/Contacts.mo
-  /usr/share/locale/pt_BR/LC_MESSAGES/Contacts.mo
-  /usr/share/locale/ru/LC_MESSAGES/Contacts.mo
-  /usr/share/locale/sv/LC_MESSAGES/Contacts.mo
-  /usr/share/locale/th/LC_MESSAGES/Contacts.mo
-  /usr/share/man/man1/contacts.1.gz
-
-------------------
-
 Port Notes:
+
+----- version 0.11-1 -----
+Version bump.
 
 ----- version 0.10-1 -----
 Initial release for Cygwin 1.7.
