@@ -1,5 +1,5 @@
 category: Gnome
-requires: evolution-data-server libdbus-glib_1_2 libebook1.2_10 libgconf2_4 libgdk_pixbuf2.0_0 libglib2.0_0 libgnomevfs2_0 libgtk2.0_0 libintl8
+requires: evolution-data-server libdbus-glib_1_2 libebook1.2_12 libgconf2_4 libgdk_pixbuf2.0_0 libglib2.0_0 libgnomevfs2_0 libgtk2.0_0 libintl8
 sdesc: "GTK+ addressbook frontend for Evolution-Data-Server"
 ldesc: "Contacts is a small, lightweight addressbook that uses libebook, 
 part of Evolution-Data-Server. This is the same library that GNOME 
