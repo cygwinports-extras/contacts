@@ -1,0 +1,8 @@
+--- origsrc/contacts-0.12/Makefile.am	2009-07-14 09:00:54.000000000 -0500
++++ src/contacts-0.12/Makefile.am	2012-05-06 22:44:19.302868600 -0500
+@@ -11,4 +11,4 @@ DISTCLEANFILES = $(INTLTOOL_BUILT)
+ MAINTAINERCLEANFILES = aclocal.m4 compile config.guess config.sub configure depcomp $(INTLTOOL_BUILT:=.in) install-sh ltmain.sh mkinstalldirs Makefile.in missing
+ 
+ snapshot:
+-        $(MAKE) dist distdir=$(PACKAGE)-snap`date +"%Y%m%d"`
++	$(MAKE) dist distdir=$(PACKAGE)-snap`date +"%Y%m%d"`
